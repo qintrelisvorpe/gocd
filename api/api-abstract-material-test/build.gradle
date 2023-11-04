@@ -19,10 +19,10 @@ plugins {
 }
 
 dependencies {
-    implementation project(path: ':api:api-base', configuration: 'runtimeElements')
-    implementation project(path: ':api:api-shared-v11', configuration: 'runtimeElements')
+    implementation project(path: ':api:api-base', configuration: 'runtimeElements2')
+    implementation project(path: ':api:api-shared-v11', configuration: 'runtimeElements2')
 
-    testImplementation project(path: ':api:api-base', configuration: 'testOutput')
+    testImplementation project(path: ':api:api-base', configuration: 'testOutput2')
 
     testImplementation project.deps.junit5Api
     testRuntimeOnly project.deps.junit5Engine
